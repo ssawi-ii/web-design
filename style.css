@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+}
+
+/*heading*/
+.hd-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/1/images/พื้นหลังป่าไม้.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 70vh;
+}
+
+.hd-content > h1 {
+    color: white;
+    font-size: 5em;
+}
+
+/*content*/
+#rhinoceros {
+    border-radius: 10%;
+}
+
+#content {
+    background-color: #013927;
+}
