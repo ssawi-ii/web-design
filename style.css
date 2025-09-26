@@ -1,5 +1,8 @@
+/*index-main*/
 body {
     height: 100vh;
+    margin: 0%;
+    padding: 0%;
 }
 
 /*heading*/
@@ -8,7 +11,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(./images/background_forest.jpg);
+    background-image: url(./assets/images/background_forest.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -27,4 +30,37 @@ body {
 
 #content {
     background-color: #013927;
+}
+
+
+
+/*page-8*/
+#leatherback_turtle {
+    background-color: #1d273e;
+    min-height: 100vh;
+    padding: 5% 10% 5% 10%; 
+}
+
+.leatherback {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.turtle {
+    border-radius: 30px;
+}
+
+.first {
+    line-height: 25px;
+    text-align: center;
+}
+
+.second {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+    color: #C8C6C6;
 }
