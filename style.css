@@ -61,3 +61,26 @@ body {
     line-height: 30px;
     color: #C8C6C6;
 }
+
+.circle-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.circle-with-text {
+    background-color: red;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-with-text > p {
+    font-size: 1.5em;
+    margin: 0%;
+}
