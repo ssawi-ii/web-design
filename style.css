@@ -1,8 +1,8 @@
 /*index-main*/
 body {
-    height: 100vh;
     margin: 0%;
     padding: 0%;
+    padding-top: 50px;
 }
 
 /*heading*/
@@ -12,9 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url(./assets/images/background_forest.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
     height: 70vh;
 }
 
@@ -37,7 +35,6 @@ body {
 /*page-8*/
 #leatherback_turtle {
     background-color: #1d273e;
-    min-height: 100vh;
     padding: 5% 10% 5% 10%; 
 }
 
@@ -60,7 +57,7 @@ body {
 
 .second {
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 30px;
     color: #C8C6C6;
 }
