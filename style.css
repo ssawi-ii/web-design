@@ -62,6 +62,10 @@ body {
     color: #C8C6C6;
 }
 
+.second > h5 {
+    color: white;
+}
+
 .circle-text {
     display: flex;
     flex-direction: row;
@@ -71,7 +75,7 @@ body {
 }
 
 .circle-with-text {
-    background-color: red;
+    background-color: #cc4e00;
     height: 70px;
     width: 70px;
     border-radius: 50%;
@@ -83,4 +87,14 @@ body {
 .circle-with-text > p {
     font-size: 1.5em;
     margin: 0%;
+}
+
+/*page-9*/
+.yellow {
+    background-color: #bc9c22;
+}
+
+#whale_shark {
+    background-color: #54607a;
+    padding: 5% 10%;
 }
