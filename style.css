@@ -13,6 +13,7 @@ body {
     align-items: center;
     background-image: url(./assets/images/background_forest.jpg);
     background-size: cover;
+    /*size of cover image*/
     height: 70vh;
 }
 
@@ -29,8 +30,6 @@ body {
 #content {
     background-color: #013927;
 }
-
-
 
 /*page-8*/
 #leatherback_turtle {
@@ -96,5 +95,30 @@ body {
 
 #whale_shark {
     background-color: #54607a;
+    padding: 5% 10%;
+}
+
+/*page-7*/
+#sarus_crane {
+    background-color: #2b5d29;
+    padding: 5% 10%;
+}
+
+.green {
+    background-color: #59a928;
+}
+
+#white-eyed_river_martin {
+    background-color: #013927;
+    padding: 5% 10%;
+}
+
+#helmeted_hornbill {
+    background-color: #2b5d29;
+    padding: 5% 10%;
+}
+
+#gurney_pitta {
+    background-color: #013927;
     padding: 5% 10%;
 }
