@@ -5,6 +5,7 @@ body {
     padding-top: 50px;
 }
 
+
 /*heading*/
 .hd-content {
     display: flex;
@@ -22,6 +23,7 @@ body {
     font-size: 5em;
 }
 
+
 /*content*/
 #rhinoceros {
     border-radius: 10%;
@@ -31,12 +33,8 @@ body {
     background-color: #013927;
 }
 
-/*page-8*/
-#leatherback_turtle {
-    background-color: #1d273e;
-    padding: 5% 10% 5% 10%; 
-}
 
+/*page-8*/
 .leatherback {
     color: white;
     display: flex;
@@ -88,18 +86,20 @@ body {
     margin: 0%;
 }
 
+
 /*page-9*/
 .yellow {
     background-color: #bc9c22;
 }
 
-#whale_shark {
-    background-color: #54607a;
+
+/*page-7*/
+#dark_green {
+    background-color: #013927;
     padding: 5% 10%;
 }
 
-/*page-7*/
-#sarus_crane {
+#light_green {
     background-color: #2b5d29;
     padding: 5% 10%;
 }
@@ -108,76 +108,84 @@ body {
     background-color: #59a928;
 }
 
-#white-eyed_river_martin {
-    background-color: #013927;
-    padding: 5% 10%;
-}
-
-#helmeted_hornbill {
-    background-color: #2b5d29;
-    padding: 5% 10%;
-}
-
-#gurney_pitta {
-    background-color: #013927;
-    padding: 5% 10%;
-}
 
 /*page-5*/
-#sumatran_rhinoceros {
-    background-color: #013927;
-    padding: 5% 10%;
-}
-
 .red {
     background-color: #cc0000;
 }
 
-#burmese_goral {
-    background-color: #2b5d29;
-    padding: 5% 10%;
-}
-
-#kouprey {
-    background-color: #013927;
-    padding: 5% 10%;
-}
-
-#fea_muntjac {
-    background-color: #2b5d29;
-    padding: 5% 10%;
-}
-
-#wild_water_buffalo {
-    background-color: #013927;
-    padding: 5% 10%;
-}
-
-#dugong {
-    background-color: #2b5d29;
-    padding: 5% 10%;
-}
-
-#marbled_cat {
-    background-color: #013927;
-    padding: 5% 10%;
-}
-
-#javan_rhinoceros {
-    background-color: #2b5d29;
-    padding: 5% 10%;
-}
-
-#brow-antlered_deer {
-    background-color: #013927;
-    padding: 5% 10%;
-}
-
-#sumatran_serow {
-    background-color: #2b5d29;
-    padding: 5% 10%;
-}
-
 .blue {
     background-color: #1d273e;
+}
+
+
+/*button to next page*/
+.golden {
+    background-color: #bc9c22;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 2.5%;
+    padding-left: 5%;
+    
+}
+
+.one, .two{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    transition: background-color 0.3s;
+}
+
+.two:hover {
+    background-color: #ff6caa;
+}
+
+.arrow {
+    font-size: 3em;
+    text-decoration: none;
+    color: black;
+}
+
+.arrow:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+/*page-6*/
+.previous-one, .previous-two {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    transition: background-color 0.3s;  
+}
+
+.previous-one:hover {
+    background-color: #ff6caa;
+}
+
+.previous {
+    padding-right: 5%;
+}
+
+#dark_blue {
+    background-color: #1d273e;
+    padding: 5% 10%;
+}
+
+#light_gray {
+    background-color: #54607a;
+    padding: 5% 10%;
 }
