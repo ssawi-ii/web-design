@@ -189,3 +189,67 @@ body {
     background-color: #54607a;
     padding: 5% 10%;
 }
+
+/*page-10*/
+.wildlife {
+    text-align: center;
+    color: #ffffff;
+}
+
+.foundation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+
+.picture-one {
+    background-color: #ffffff;
+    height: 200px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture-one img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.picture-two {
+    background-color: #cae6d5;
+    height: 200px;
+    width: auto;
+    padding: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture-two img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.picture-three {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.picture-three img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
