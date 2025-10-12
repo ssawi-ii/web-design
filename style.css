@@ -263,3 +263,28 @@ body {
     gap: 100px;
     margin-top: 5%;
 }
+
+/*page-2*/
+.meaning {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.meaning-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meaning-text > h1 {
+    margin-bottom: 5%;
+    color: white;
+}
+
+.image-one {
+    border-radius: 10%;
+}
