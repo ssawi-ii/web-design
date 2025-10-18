@@ -490,12 +490,19 @@ span {
 
 /*member card*/
 .contact {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    padding: 20px;
 }
 
-.container .card .icon {
+.member_card {
+    width: 300px;
+    max-width: 100%;
+}
+
+.member_card .card .icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -507,23 +514,13 @@ span {
     background: #70B2B2;
 }
 
-.container .card .icon .fa {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
-    color: #fff;
-
-}
-
-.container .card .slide {
+.member_card .card .slide {
     width: 100%;
     height: 200px;
     transition: 0.5s;
 }
 
-.container .card .slide.slide1 {
+.member_card .card .slide.slide1 {
     position: relative;
     display: flex;
     justify-content: center;
@@ -533,11 +530,11 @@ span {
     transform: translateY(100px);
 }
 
-.container .card:hover .slide.slide1{
+.member_card .card:hover .slide.slide1{
     transform: translateY(0px);
 }
 
-.container .card .slide.slide2 {
+.member_card .card .slide.slide2 {
     position: relative;
     display: flex;
     justify-content: center;
@@ -549,11 +546,11 @@ span {
     box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
 
-.container .card:hover .slide.slide2{
+.member_card .card:hover .slide.slide2{
     transform: translateY(0);
 }
 
-.container .card .slide.slide2::after{
+.member_card.card .slide.slide2::after{
     content: "";
     position: absolute;
     width: 30px;
@@ -564,14 +561,14 @@ span {
     background: #70B2B2;
 }
 
-.container .card .slide.slide2 .content p {
+.member_card .card .slide.slide2 .content p {
     margin: 0;
     padding: 0;
     text-align: center;
     color: #414141;
 }
 
-.container .card .slide.slide2 .content h3 {
+.member_card .card .slide.slide2 .content h3 {
     margin: 0 0 10px 0;
     padding: 0;
     font-size: 24px;
@@ -585,3 +582,10 @@ span {
     border-radius: 50%;
     object-fit: cover;
 }
+
+/*page-11*/
+.reference {
+    font-size: 14px;
+}
+
+
