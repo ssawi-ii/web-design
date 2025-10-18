@@ -316,6 +316,11 @@ body {
     border-radius: 10%;
 }
 
+.Subject > span {
+    color: white;
+    font-size: 30px;
+}
+
 /*page-1*/
 .measure {
     text-align: center;
@@ -474,6 +479,11 @@ span {
     flex-direction: column;
     justify-content: center;
     gap: 5em;
+}
+
+.detailed {
+    color: white;
+    font-size: 25px;
 }
 
 /*page-12*/
