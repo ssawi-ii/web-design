@@ -589,8 +589,17 @@ span {
 }
 
 /*responsive > mobile*/
-/*page-1*/
 @media (max-width: 480px) {
+    /*page-1*/
+    .hd-content h1 {
+        font-size: 3em;
+    }
+
+    .measure {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
     .box-one {
         width: 100%;
     }
@@ -619,13 +628,141 @@ span {
     
     .white-box {
         width: 100%;
+        font-size: 14px;
     }
 
-    .measure {
-        font-size: 30px;
+    .detailed {
+        font-size: 20px;
+    }
+    
+    .other {
+        font-size: 22px;
     }
 
-    .hd-content h1 {
-        font-size: 3em;
+    /*page-2*/
+    .meaning {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .image-one {
+        height: 150px;
+    }
+
+    .more {
+        text-align: center;
+    }
+
+    .more h1 {
+        margin-top: 10px;
+        margin-bottom: 18px !important;
+    }
+
+    .more h3 {
+        font-size: 22px;
+    }
+
+    .meaning img {
+        height: 200px;
+    }
+
+    .meaning-text h1 {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 18px;
+    }
+
+    .meaning-text h1 > span {
+        font-size: 22px;
+    }
+    
+    .D-DUGONG {
+        order: 1;
+    }
+
+    /*page-3*/
+    .serow {
+        height: 150px;
+        margin-top: 15px;
+    }
+
+    .second {
+        font-size: 18px;
+    }
+
+    .middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 30px;
+    }
+
+    /*page-5*/
+    .turtle {
+        margin-top: 20px;
+        height: 150px;
+    }
+
+    .first h4 {
+        font-size: 18px;
+    }
+
+    .button .circle-with-text {
+        height: 40px;
+        width: 40px;
+    }
+
+    .arrow {
+       height: 80px;
+    }
+
+    /*page-10*/
+    .foundation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .picture-two {
+        height: 120px;
+    }
+
+    .map {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .map iframe {
+        height: 200px;
+        width: 200px;
+        margin-top: 30px;
+    }
+
+    .WFT .picture-two {
+        height: 75px;
+    } 
+
+    /*page-11*/
+    .footer {
+        margin-top: 40px;
+    }
+
+    .REF {
+        word-break: break-all;
+    }
+
+    /*page-12*/
+    .contact {
+        padding: 0%;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 }
