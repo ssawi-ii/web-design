@@ -588,4 +588,44 @@ span {
     font-size: 14px;
 }
 
+/*responsive > mobile*/
+/*page-1*/
+@media (max-width: 480px) {
+    .box-one {
+        width: 100%;
+    }
 
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin: 0%;
+        width: 100%;
+    }
+
+    .box-two {
+        margin-top: 15%;
+    }
+
+    .blam {
+        margin-top: 10%;
+    }
+
+    .blam h1 {
+        font-size: 30px;
+    }
+    
+    .white-box {
+        width: 100%;
+    }
+
+    .measure {
+        font-size: 30px;
+    }
+
+    .hd-content h1 {
+        font-size: 3em;
+    }
+}
