@@ -766,3 +766,76 @@ span {
         margin-bottom: 40px;
     }
 }
+
+/*responsive > ipad*/
+@media (max-width: 1200px) {
+    /*page-1*/
+    .hd-content h1 {
+        font-size: 60px;
+    }
+
+    #rhinoceros {
+        height: 350px;
+        width: auto;
+    }
+
+    .measure {
+       font-size: 35px;
+    }
+
+    .box-one {
+        width: 100%;
+    }
+
+    .box-two {
+        width: 800px;
+    }
+
+    .white-box {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .detailed {
+        font-size: 24px;
+    }
+
+    .other {
+        font-size: 26px;
+    }
+
+    /*page-2*/
+    .meaning-text p {
+        font-size: 20px;
+    }
+
+    .more h3 {
+        font-size: 26px;
+    }
+
+    .meaning-text h1 {
+        font-size: 35px;
+    }
+
+    .meaning-text h1 > span {
+        font-size: 24px;
+    }
+
+    /*page-3*/
+    .second {
+        font-size: 21px;
+    }
+
+    .second ul {
+        font-size: 21px;
+    }
+
+    .button .circle-with-text {
+        height: 60px;
+        width: 60px;
+    }
+
+    .arrow {
+       height: 80px;
+    }
+}
