@@ -685,6 +685,11 @@ span {
         width: 100%;
     }
 
+    #rhinoceros {
+        height: 250px;
+        width: auto;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
@@ -692,6 +697,10 @@ span {
         align-items: center;
         gap: 40px;
         margin: 0%;
+        width: 100%;
+    }
+
+    .container .card {
         width: 100%;
     }
 
